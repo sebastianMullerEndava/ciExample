@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      # Check Gradle Version
+      - name: Gradle Version
+        run: /opt/gradle -v
