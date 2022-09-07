@@ -37,4 +37,4 @@ jobs:
 
       # Check Gradle Version
       - name: Gradle Version
-        run: /opt/gradle -v
+        run: /opt/gradle/gradle -v
