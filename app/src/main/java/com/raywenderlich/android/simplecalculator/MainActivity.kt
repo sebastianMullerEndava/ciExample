@@ -37,6 +37,7 @@ package com.raywenderlich.android.simplecalculator
 import CalculatorEngine
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
@@ -59,6 +60,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     registerButtonClick()
     textResult.isSelected = true
+    Log.e("TAG","HOlaaaa!!")
   }
 
   /**
