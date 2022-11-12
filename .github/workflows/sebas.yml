@@ -33,4 +33,4 @@ jobs:
 
       # Gradle Run Unit Tests
       - name: Unit tests
-        run: /opt/gradle/gradle-7.5.1/bin/gradle assembleDebug
+        run: /opt/gradle/gradle-7.5.1/bin/gradle assembleDebug --info
