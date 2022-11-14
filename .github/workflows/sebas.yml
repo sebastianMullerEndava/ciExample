@@ -33,4 +33,4 @@ jobs:
 
       # Gradle Run Unit Tests
       - name: Unit tests
-        run: gradlew assembleDebug 
+        run: ./gradlew assembleDebug 
