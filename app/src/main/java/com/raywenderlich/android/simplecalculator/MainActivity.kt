@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     registerButtonClick()
     textResult.isSelected = true
-    Log.e("TAG","HolaaaaDevWeek3!!")
+    Log.e("TAG","HolaaaaDevWeek4!!")
   }
 
   /**
